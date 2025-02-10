@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'ATT';
+  src:
+    url('./assets/fonts/ATT.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'raq';
+  src:
+    url('./assets/fonts/Raqami.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'sor';
+  src:
+    url('./assets/fonts/Sorena-Normal.ttf') format('truetype');
+}
+
+.App {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(0, 0, 151);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 10px;
+  font-family: 'ATT';
+}
+
